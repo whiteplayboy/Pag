@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color:#02063b;
+    font-size: 50px;
+    font-weight: 100;
+    /*cor  de fundo*/
+    color: rgb(223, 149, 13);
+    /*cor da letra*/
+}
+
+.principal{
+    background-image: url(IMG/Notebook.png);
+    background-repeat:no-repeat;  
+    background-size:contain;
+}
+.container{
+    height:100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.container_botao{
+    background-color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 2em;
+    color: chartreuse;
+    display: block;
+}
+
+.botao_secundario{                                                                                          
+    background-color: transparent;
+    border: 2px solid rgb(221, 18, 18)
+
+}
+
+
