@@ -1,14 +1,14 @@
 *{
-    margin:0;
-    padding:0;
+    margin: 5px;
+    padding: 18px;
 }
 
 body{
     background-color:#02063b;
-    font-size: 50px;
+    font-size: 17px;
     font-weight: 100;
     /*cor  de fundo*/
-    color: rgb(223, 149, 13);
+    color: rgb(223, 13, 13);
     /*cor da letra*/
 }
 
@@ -18,23 +18,27 @@ body{
     background-size:contain;
 }
 .container{
-    height:100vh;
+    height:90vh;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 68% 25%;
 }
 .container_botao{
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     text-decoration: none;
-    border-radius: 5px;
-    padding: 2em;
-    color: chartreuse;
+    border-radius: 10px;
+    padding: 35px;
+    color: rgb(255, 10, 10);
     display: block;
 }
 
 .botao_secundario{                                                                                          
     background-color: transparent;
-    border: 2px solid rgb(221, 18, 18)
+    border: 10px solid rgb(221, 18, 18)
+}
+.container_imagem{
+     margin: 9 px 30 40 px 40; 
+ }
+.container_caixa{
+    margin: 0px 0px;
 
 }
-
-
