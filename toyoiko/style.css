@@ -23,7 +23,7 @@ body{
     grid-template-columns: 68% 25%;
 }
 .container_botao{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(231, 216, 216);
     text-decoration: none;
     border-radius: 10px;
     padding: 35px;
@@ -33,12 +33,17 @@ body{
 
 .botao_secundario{                                                                                          
     background-color: transparent;
-    border: 10px solid rgb(221, 18, 18)
+    border: 10px solid rgb(133, 95, 95)
 }
 .container_imagem{
      margin: 9 px 30 40 px 40; 
  }
-.container_caixa{
-    margin: 0px 0px;
-
+ .container_caixa{
+    margin: 40px 100px;
+} .secundario_imagem{
+    width:40;
+}
+ .segundario{
+    align-items:center;
+    margin: 80 100em;
 }
