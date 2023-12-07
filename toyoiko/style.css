@@ -29,6 +29,7 @@ body{
     padding: 35px;
     color: rgb(255, 10, 10);
     display: block;
+    margin-top: 11em;
 }
 
 .botao_secundario{                                                                                          
@@ -45,5 +46,13 @@ body{
 }
  .segundario{
     align-items:center;
-    margin: 80 100em;
+    margin: 80 100em; 
+}
+.container_descriçao{
+    padding: 2em;
+}
+.segundario_botao{
+    display: inline-block;
+    padding: 2em;
+    margin-top: 0em;
 }
